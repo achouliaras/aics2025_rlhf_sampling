@@ -67,15 +67,15 @@ if __name__ == "__main__":
 
     # load results from CSV
 
-    if not os.path.exists("swiss_infogain_results_agg.csv"):
+    if not os.path.exists("src/swiss_infogain_results_agg.csv"):
         raise FileNotFoundError("swiss_infogain_results_agg.csv not found. Please run the simulations first.")
-    df_swiss = pd.read_csv("swiss_infogain_results_agg.csv")    
-    if not os.path.exists("round_robin_results_agg.csv"):
+    df_swiss = pd.read_csv("src/swiss_infogain_results_agg.csv")    
+    if not os.path.exists("src/round_robin_results_agg.csv"):
         raise FileNotFoundError("round_robin_results_agg.csv not found. Please run the simulations first.")
-    df_agg = pd.read_csv("round_robin_results_agg.csv")    
-    if not os.path.exists("search_space_comparison.csv"):
+    df_agg = pd.read_csv("src/round_robin_results_agg.csv")    
+    if not os.path.exists("src/search_space_comparison.csv"):
         raise FileNotFoundError("search_space_comparison.csv not found. Please run the simulations first.")
-    df = pd.read_csv("search_space_comparison.csv")
+    df = pd.read_csv("src/search_space_comparison.csv")
     methods = ["full_rng_elo","swiss_elo", "borda", "bt"]
     x = df["Rounds"] * N  # Convert rounds to games
     titles={

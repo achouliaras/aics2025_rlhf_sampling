@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
-from methods.utils import expected_score
+from src.methods.utils import expected_score
 
 def update_elo(rating_a, rating_b, score_a, K=40):
     exp_a = expected_score(rating_a, rating_b)

@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
-from methods.utils import expected_score
+from src.methods.utils import expected_score
 
 # --- Tie model ---
 def tie_probability(skill_diff, max_tie_prob=0.2, tau=200):
