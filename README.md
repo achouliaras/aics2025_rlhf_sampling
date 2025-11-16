@@ -5,9 +5,9 @@ Code for AICS2025 paper:  Maximizing the efficiency of human feedback in AI alig
 ```bash
 git clone https://github.com/achouliaras/aics2025_rlhf_sampling.git
 cd aics2025_rlhf_sampling
-python3 -m venv venv
-source venv/bin/activate   # macOS / Linux
-# venv\Scripts\activate    # Windows
+python3 -m venv rlhf_sampling
+source rlhf_sampling/bin/activate   # macOS / Linux
+# rlhf_sampling\Scripts\activate    # Windows
 pip install -r requirements.txt
 ```
 ### Run the experiments
