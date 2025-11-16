@@ -1,4 +1,4 @@
-# aics2025_rlhf_sampling
+# AICS 2025
 Code for AICS2025 paper:  Maximizing the efficiency of human feedback in AI alignment: a comparative analysis
 
 ### Installation
